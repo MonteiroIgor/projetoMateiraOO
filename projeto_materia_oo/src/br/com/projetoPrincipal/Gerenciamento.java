@@ -1,9 +1,21 @@
 package br.com.projetoPrincipal;
 
+import br.com.projeto.Aluno;
+import java.util.Scanner;
+
 public class Gerenciamento {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		
+		Aluno a1 = new Aluno();
+	
+
+		System.out.println("Digite seu Nome: ");
+		a1.setCurso(scan.nextLine());
+		
+		System.out.println(a1.getCurso());
 
 	}
 

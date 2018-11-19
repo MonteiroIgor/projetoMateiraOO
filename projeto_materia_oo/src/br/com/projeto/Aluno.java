@@ -8,6 +8,7 @@ public class Aluno {
 	private String curso;
 	
 	
+	
 	public String getNome() {
 		return nome;
 	}
