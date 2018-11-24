@@ -5,7 +5,7 @@ public class Aluno {
 	private String nome;
 	private String matrAluno;
 	private String senha;
-	private String curso;
+	private Curso curso;
 	
 	
 	
@@ -27,10 +27,10 @@ public class Aluno {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	public String getCurso() {
+	public Curso getCurso() {
 		return curso;
 	}
-	public void setCurso(String curso) {
+	public void setCurso(Curso curso) {
 		this.curso = curso;
 	}
 	

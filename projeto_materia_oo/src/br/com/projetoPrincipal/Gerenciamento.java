@@ -1,21 +1,32 @@
 package br.com.projetoPrincipal;
 
+
 import br.com.projeto.Aluno;
-import java.util.Scanner;
+import br.com.projeto.Coordenador;
+import br.com.projeto.GrupoDePesquisa;
+import br.com.projeto.Funcionario;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Gerenciamento {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
 		
+		List<GrupoDePesquisa> gruposDePesquisa = new ArrayList<>();
+		List<Aluno> aluno = new ArrayList<>();
+		
+		
+	
+		Coordenador coord =  new Coordenador();
 		Aluno a1 = new Aluno();
+		GrupoDePesquisa gp1 = new GrupoDePesquisa();
+		Funcionario p1 = new Funcionario();
+		
 	
 
-		System.out.println("Digite seu Nome: ");
-		a1.setCurso(scan.nextLine());
 		
-		System.out.println(a1.getCurso());
 
 	}
 
